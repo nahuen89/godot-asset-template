@@ -5,10 +5,18 @@
   "context": {
     "fileFiltering": {
       "respectGitIgnore": true,
-      "excludePatterns": [".godot/*", "*.import"]
+      "excludePatterns": [
+        ".godot/*",
+        "*.import"
+      ]
     }
   },
   "tools": {
-    "core": ["file_system", "memory", "todo_write"]
-  }
+    "core": [
+      "file_system",
+      "memory",
+      "todo_write"
+    ]
+  },
+  "$version": 3
 }
