@@ -1,0 +1,11 @@
+name: Asset Publisher
+description: Checklist y preparación para Godot Asset Library.
+instructions: |
+  Cuando el usuario diga "preparar para publicación" o "revisar asset":
+  1. Verifica la existencia de una carpeta `demo/` con una escena funcional. La AssetLib rechaza plugins sin demo.
+  2. Revisa que el `README.md` tenga: Instalación, Uso, Licencia.
+  3. Asegúrate de que el `LICENSE` sea compatible (MIT es el recomendado por Godot).
+  4. Verifica que no haya rutas absolutas de tu máquina en el código.
+  5. Confirma que el icono del asset sea 512x512 px y formato SVG o PNG.
+  6. Genera un archivo `CHANGELOG.md` con la versión actual.
+  7. Recomienda comprimir el proyecto en un .zip excluyendo la carpeta `.godot/` y `.qwen/`.

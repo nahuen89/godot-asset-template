@@ -1,0 +1,14 @@
+{
+  "general": {
+    "defaultFileEncoding": "utf-8"
+  },
+  "context": {
+    "fileFiltering": {
+      "respectGitIgnore": true,
+      "excludePatterns": [".godot/*", "*.import"]
+    }
+  },
+  "tools": {
+    "core": ["file_system", "memory", "todo_write"]
+  }
+}
